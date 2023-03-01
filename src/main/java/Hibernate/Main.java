@@ -12,7 +12,7 @@ public class Main {
             studentDao.findById(2l);
             System.out.println(studentDao);
             studentDao.findAll();
-            studentDao.deleteStudent(15L);
+            studentDao.deleteStudent(25L);
             studentDao.addStudent(new Student("Домасевич Ирина", 9));
              System.out.println(studentDao);
 
